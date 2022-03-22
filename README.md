@@ -28,10 +28,15 @@ IMPORTANT NOTE - This collection of software requires fourn.c from "Numerical Re
 3.  Create an input file consisting of image .txt files, keywords (filename prefix for output files), and outer radii of the galaxies in pixels for scripter.ccp to read with the following format:
 
 > [blank line]
+> 
 > image_textfile_1,keyword_1,outer_radius_1
+> 
 > image_textfile_2,keyword_2,outer_radius_2
+> 
 > image_textfile_3,keyword_3,outer_radius_3
+> 
 > image_textfile_etc,keyword_etc,outer_radius_etc
+> 
 > [blank line]
 
 See the file included file "input.txt" as a template for input files.
@@ -51,10 +56,15 @@ See the file included file "input.txt" as a template for input files.
 9.  When the script has completed it will create files: keyword_m0, keyword_m1, keyword_m2, keyword_m3, keyword_m4, keyword_m5, keyword_m6. These files represent the different m harmonic modes. A set of these seven files will be created for each galaxy. In these files, the structure of the columns in a left to right fashion is:
 
 Column 1 = m
+
 Column 2 = "outiX_m2" where "X" is the inner radius in pixels
+
 Column 3 = p_{max}
+
 Column 4 = p_{max} amplitude
+
 Column 5 = pitch angle (deg.)
+
 Column 6 = phase angle (deg.)
 
 If you publish results using this code, please cite the following paper:
