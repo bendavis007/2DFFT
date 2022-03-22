@@ -1,0 +1,7 @@
+2dfft: 2dfft.o fourn.o
+	cc -O -o 2dfft 2dfft.o fourn.o -lm
+	rm -f *.o
+2dfft.o: 2dfft.c
+	cc -c -o 2dfft.o 2dfft.c
+fourn.o: fourn.c
+	cc -c -o fourn.o fourn.c 

@@ -1,0 +1,4 @@
+
+galaxy1.txt,galaxy1,outer_radius_1
+galaxy2.txt,galaxy2,outer_radius_2
+galaxy3.txt,galaxy3,outer_radius_3
