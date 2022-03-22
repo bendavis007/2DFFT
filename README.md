@@ -1,7 +1,9 @@
 # 2DFFT
 2DFFT Software Package to Measure Galactic Spiral Arm Pitch Angle
 
-IMPORTANT NOTE - This collection of software requires fourn.c from "Numerical Recipes in C" (Press et al. 1989).
+2DFFT utilizes two-dimensional fast Fourier transformations of images of spiral galaxies to isolate and measure the pitch angles of their spiral arms; this provides a quantitative way to measure this morphological feature and allows comparison of spiral galaxy pitch angle to other galactic parameters and test spiral arm genesis theories.
+
+**IMPORTANT NOTE - This collection of software requires fourn.c from "Numerical Recipes in C" (Press et al. 1989).**
 
 1.  Compile the various files before the first usage of the software with the following commands:
 
@@ -67,6 +69,6 @@ Column 5 = pitch angle (deg.)
 
 Column 6 = phase angle (deg.)
 
-If you publish results using this code, please cite the following paper:
+**If you publish results using this code, please cite the following paper:**
 
 Davis, B. L., Berrier, J. C., Shields, D. W, et al., Measurement of Galactic Logarithmic Spiral Arm Pitch Angle Using Two-Dimensional Fast Fourier Transform Decomposition, ApJS, 199, 33 (2012): https://doi.org/10.1088/0067-0049/199/2/33
